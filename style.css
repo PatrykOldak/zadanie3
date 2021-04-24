@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#game_table {
+    padding-left: 350px;
+}
+
+.game{
+    display: flex;
+}
+
+.hidden  {
+    opacity: 0;
+}
+
+.hiddenelement {
+    opacity: 0;
+}
+
+.selected {
+    opacity: 0.5;
+    width: 120px;
+    height: 120px;
+}
+
+.scored {
+    opacity: 1.0;
+    width: 120px;
+    height: 120px;
+}
+
+.topbar{
+    display: flex;
+    text-align: center;
+    position: fixed;
+    background: linear-gradient(#e66465, #9198e5);
+    height: 85px;
+    width: 100%;
+    flex-direction: row;
+    flex-flow: column wrap;
+    font-size: 18px;
+}
+
+body {
+    background: #d60b0b3f;
+    font-family: Lato;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+
+li {
+    float: left;
+    padding: 30px 80px 30px 80px;
+    color: white;
+    font-weight: bold;
+}
+li:hover {
+    background: linear-gradient(#d60b0b3f, #2937cf31);
+    font-size: 21px;
+}
+
+
+.menu{
+   padding-left: 200px;
+}
+
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.element {
+   
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin-left: 30px;
+
+}
+
+.element2 {
+    margin: 20px 0px 30px 0px;
+    width: 220px;
+    height: 70px;
+    border: 3px solid rgb(73, 126, 160);
+    border-radius: 5px 5px 5px 5px;
+    line-height: 60px;
+    font-size: 25px;
+    text-align: center;
+   
+}
+
+.element2:hover{
+    background-color: rgb(73, 126, 160);
+    border: 4px solid #60AFE0;
+}
+
+header {
+    text-align: center;
+    font-size: 50px;
+    height: 80px;
+    width: 250px;
+    margin-right: -300px;
+    line-height: 80px;
+    background-color: linear-gradient(#090f53, #f08585);
+    border-radius: 360px;
+
+}
+.content {
+    font-size: 25px;
+    text-align: center;
+    width: 700px;
+    padding: 30px;
+    margin-left: 300px;
+    padding-top: 110px;
+    
+}
+.images > img {
+    width: 180px;
+    height: 180px;
+}
+.images {
+    margin-top: -15px;
+}
+img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: -4px;
+    border: 1px solid black;   
+}
+
+
+
+    td, th {
+        border: 1px solid black;
+        }
+    
+
+ 
